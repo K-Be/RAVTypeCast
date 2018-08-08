@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RAVTypeCast_Example' do
+  pod 'RAVTypeCast', :path => '../'
+
+  target 'RAVTypeCast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
