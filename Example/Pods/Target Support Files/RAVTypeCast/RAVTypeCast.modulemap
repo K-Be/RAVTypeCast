@@ -1,0 +1,6 @@
+framework module RAVTypeCast {
+  umbrella header "RAVTypeCast-umbrella.h"
+
+  export *
+  module * { export * }
+}

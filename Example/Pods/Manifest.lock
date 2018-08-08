@@ -1,0 +1,22 @@
+PODS:
+  - RAVTypeCast (0.0.1):
+    - RAVTypeCast/All (= 0.0.1)
+  - RAVTypeCast/All (0.0.1):
+    - RAVTypeCast/CoreGraphics
+    - RAVTypeCast/Swift
+  - RAVTypeCast/CoreGraphics (0.0.1)
+  - RAVTypeCast/Swift (0.0.1)
+
+DEPENDENCIES:
+  - RAVTypeCast (from `../`)
+
+EXTERNAL SOURCES:
+  RAVTypeCast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RAVTypeCast: 4e4a01b416986f7338287c89638523d3b44eb0eb
+
+PODFILE CHECKSUM: 42e6920ee42430b09090381b0209154191ff83a1
+
+COCOAPODS: 1.5.3

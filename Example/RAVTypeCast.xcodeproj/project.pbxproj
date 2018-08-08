@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		021A547389E525DC68F3B8DA /* Pods_RAVTypeCast_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1E85BB5C5C62713C456DB8 /* Pods_RAVTypeCast_Example.framework */; };
+		13660FE2211B4A9000FE8815 /* TestIntCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13660FE1211B4A9000FE8815 /* TestIntCast.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		F3E2B1DF9222D08579C8CD86 /* Pods_RAVTypeCast_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF09421C075446C1B27BA15C /* Pods_RAVTypeCast_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28D3D93F23381C05B05754F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		13660FE1211B4A9000FE8815 /* TestIntCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIntCast.swift; sourceTree = "<group>"; };
+		28D3D93F23381C05B05754F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A1E85BB5C5C62713C456DB8 /* Pods_RAVTypeCast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVTypeCast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RAVTypeCast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAVTypeCast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,11 +40,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RAVTypeCast_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAVTypeCast_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		780563BB5723F6FADAE70E3E /* Pods-RAVTypeCast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVTypeCast_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAVTypeCast_Example/Pods-RAVTypeCast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C77161524CF83CB1B589F75 /* Pods-RAVTypeCast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVTypeCast_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAVTypeCast_Example/Pods-RAVTypeCast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1943D82904A9987FED65BBF /* RAVTypeCast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RAVTypeCast.podspec; path = ../RAVTypeCast.podspec; sourceTree = "<group>"; };
-		B3ECE7516CA0F358B139C93B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1943D82904A9987FED65BBF /* RAVTypeCast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RAVTypeCast.podspec; path = ../RAVTypeCast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3ECE7516CA0F358B139C93B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DB996C08F28F8B549EAA6295 /* Pods-RAVTypeCast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVTypeCast_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAVTypeCast_Tests/Pods-RAVTypeCast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAE8F6B87AB209E8D390ED4B /* Pods-RAVTypeCast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAVTypeCast_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAVTypeCast_Tests/Pods-RAVTypeCast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF09421C075446C1B27BA15C /* Pods_RAVTypeCast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVTypeCast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +115,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				13660FE1211B4A9000FE8815 /* TestIntCast.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 25WDLLAK34;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -331,7 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				13660FE2211B4A9000FE8815 /* TestIntCast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +470,7 @@
 			baseConfigurationReference = 9C77161524CF83CB1B589F75 /* Pods-RAVTypeCast_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = RAVTypeCast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +486,7 @@
 			baseConfigurationReference = 780563BB5723F6FADAE70E3E /* Pods-RAVTypeCast_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = RAVTypeCast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

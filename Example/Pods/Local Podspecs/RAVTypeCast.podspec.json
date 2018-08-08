@@ -1,0 +1,81 @@
+{
+  "name": "RAVTypeCast",
+  "version": "0.0.1",
+  "summary": "Convenient type casting for Numeric types",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/k_be/RAVTypeCast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrew Romanov": "scalli-k-be@ya.ru"
+  },
+  "source": {
+    "git": "https://github.com/Andrew Romanov/RAVTypeCast.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RAVTypeCast/Classes/**/*",
+  "default_subspecs": "All",
+  "subspecs": [
+    {
+      "name": "Swift",
+      "source_files": "RAVTypeCast/Classes/Swift/**/*",
+      "platforms": {
+        "ios": "8.0",
+        "osx": "10.7",
+        "tvos": "9.0"
+      },
+      "ios": {
+        "frameworks": "Foundation"
+      },
+      "tvos": {
+        "frameworks": "Foundation"
+      },
+      "osx": {
+        "frameworks": "Foundation"
+      }
+    },
+    {
+      "name": "CoreGraphics",
+      "source_files": "RAVTypeCast/Classes/CoreGraphics/**/*",
+      "platforms": {
+        "ios": "8.0",
+        "osx": "10.7",
+        "tvos": "9.0"
+      },
+      "ios": {
+        "frameworks": [
+          "CoreGraphics",
+          "Foundation"
+        ]
+      },
+      "tvos": {
+        "frameworks": [
+          "CoreGraphics",
+          "Foundation"
+        ]
+      },
+      "osx": {
+        "frameworks": [
+          "CoreGraphics",
+          "Foundation"
+        ]
+      }
+    },
+    {
+      "name": "All",
+      "dependencies": {
+        "RAVTypeCast/CoreGraphics": [
+
+        ],
+        "RAVTypeCast/Swift": [
+
+        ]
+      }
+    }
+  ]
+}
