@@ -8,7 +8,7 @@
 import Foundation
 
 
-public extension Double {
+extension Double : CastableToSwiftTypes {
     public var Int: Swift.Int {
         get {
             return Swift.Int(self)

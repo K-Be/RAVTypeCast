@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		021A547389E525DC68F3B8DA /* Pods_RAVTypeCast_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1E85BB5C5C62713C456DB8 /* Pods_RAVTypeCast_Example.framework */; };
-		13660FE2211B4A9000FE8815 /* TestIntCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13660FE1211B4A9000FE8815 /* TestIntCast.swift */; };
+		13660FE2211B4A9000FE8815 /* TestCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13660FE1211B4A9000FE8815 /* TestCast.swift */; };
+		1379ED88211C88C80075AF31 /* TestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379ED87211C88C80075AF31 /* TestBase.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,7 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13660FE1211B4A9000FE8815 /* TestIntCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIntCast.swift; sourceTree = "<group>"; };
+		13660FE1211B4A9000FE8815 /* TestCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCast.swift; sourceTree = "<group>"; };
+		1379ED87211C88C80075AF31 /* TestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBase.swift; sourceTree = "<group>"; };
 		28D3D93F23381C05B05754F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A1E85BB5C5C62713C456DB8 /* Pods_RAVTypeCast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVTypeCast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RAVTypeCast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAVTypeCast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +117,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				13660FE1211B4A9000FE8815 /* TestIntCast.swift */,
+				13660FE1211B4A9000FE8815 /* TestCast.swift */,
+				1379ED87211C88C80075AF31 /* TestBase.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -332,7 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13660FE2211B4A9000FE8815 /* TestIntCast.swift in Sources */,
+				1379ED88211C88C80075AF31 /* TestBase.swift in Sources */,
+				13660FE2211B4A9000FE8815 /* TestCast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

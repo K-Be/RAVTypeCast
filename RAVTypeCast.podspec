@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/k_be/RAVTypeCast'
+  s.homepage         = 'https://github.com/K-Be/RAVTypeCast'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrew Romanov' => 'scalli-k-be@ya.ru' }
-  s.source           = { :git => 'https://github.com/Andrew Romanov/RAVTypeCast.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/K-Be/RAVTypeCast.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

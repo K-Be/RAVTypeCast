@@ -9,7 +9,12 @@ import Foundation
 import CoreGraphics
 
 
-public extension CGFloat {
+public protocol CastableToCGFloat {
+    var CGFloat : CoreGraphics.CGFloat {get}
+}
+
+
+extension CGFloat : CastableToSwiftTypes, CastableToCGFloat {
     
     public var Int : Swift.Int {
         get {
@@ -39,7 +44,7 @@ public extension CGFloat {
 }
 
 
-public extension Int {
+extension Int : CastableToCGFloat {
     public var CGFloat : CoreGraphics.CGFloat {
         get {
             return CoreGraphics.CGFloat(self)
@@ -48,7 +53,7 @@ public extension Int {
 }
 
 
-public extension Double {
+extension Double : CastableToCGFloat {
     public var CGFloat : CoreGraphics.CGFloat {
         get{
             return CoreGraphics.CGFloat(self)
@@ -57,7 +62,7 @@ public extension Double {
 }
 
 
-public extension Float {
+extension Float : CastableToCGFloat {
     public var CGFloat : CoreGraphics.CGFloat {
         get {
             return CoreGraphics.CGFloat(self)

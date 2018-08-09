@@ -10,6 +10,7 @@
 		067CD1BB3D960B95F6CE6BBFD1872C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433228A9E7E99840866656D9A6D0371 /* Foundation.framework */; };
 		13660FEA211B51A700FE8815 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13660FE8211B519400FE8815 /* CGFloat.swift */; };
 		13660FEC211B53F700FE8815 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13660FEB211B53F700FE8815 /* Double.swift */; };
+		1379ED86211C88100075AF31 /* SwiftTypesCastableP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1379ED84211C87040075AF31 /* SwiftTypesCastableP.swift */; };
 		24428082B37F2362D8F1959770559F80 /* Pods-RAVTypeCast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AFA723E7FD4EF5435FE5B819C606C8 /* Pods-RAVTypeCast_Tests-dummy.m */; };
 		3FE0C92EF3A69EABCCF92C2E05E34927 /* Pods-RAVTypeCast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F3C628EE36FCF92F3E704466F9DBF3 /* Pods-RAVTypeCast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A0CC13BF80D963D1844CBA318616E24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4049C3B542D2F6D18A6EABFA6E09E8 /* CoreGraphics.framework */; };
@@ -46,6 +47,7 @@
 		11A2B29598F8C6BC540C08DE3D6E44F2 /* RAVTypeCast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RAVTypeCast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13660FE8211B519400FE8815 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
 		13660FEB211B53F700FE8815 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		1379ED84211C87040075AF31 /* SwiftTypesCastableP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypesCastableP.swift; sourceTree = "<group>"; };
 		1634663C4F49B78A75D65AA48690F04F /* Pods_RAVTypeCast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAVTypeCast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFAEA9B40707C2578122843A4313D7D /* Pods-RAVTypeCast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RAVTypeCast_Example.modulemap"; sourceTree = "<group>"; };
 		201D7A2D61FCC2BA0B6EE08B7E1D1161 /* Pods-RAVTypeCast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RAVTypeCast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				9219502A157A2112495A8B10AF90C6E8 /* Float.swift */,
 				FBC768DCC01DC8B84D84AA2BE08537CA /* Int.swift */,
 				13660FEB211B53F700FE8815 /* Double.swift */,
+				1379ED84211C87040075AF31 /* SwiftTypesCastableP.swift */,
 			);
 			name = Swift;
 			path = RAVTypeCast/Classes/Swift;
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13660FEA211B51A700FE8815 /* CGFloat.swift in Sources */,
+				1379ED86211C88100075AF31 /* SwiftTypesCastableP.swift in Sources */,
 				8FDD6EC8746BD65E93242B6EEB4A3FEF /* Float.swift in Sources */,
 				7AA73D8E0FFFAF4BB9C8560F76B6DCE9 /* Int.swift in Sources */,
 				13660FEC211B53F700FE8815 /* Double.swift in Sources */,
