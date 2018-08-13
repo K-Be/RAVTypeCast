@@ -58,6 +58,9 @@ TODO: Add long description of the pod here.
   s.subspec 'All' do |op|
       op.dependency 'RAVTypeCast/CoreGraphics'
       op.dependency 'RAVTypeCast/Swift'
+      op.ios.deployment_target = '8.0'
+      op.osx.deployment_target = '10.7'
+      op.tvos.deployment_target = '9.0'
   end
  
   # s.resource_bundles = {

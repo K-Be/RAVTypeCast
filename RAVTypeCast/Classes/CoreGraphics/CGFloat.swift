@@ -15,6 +15,29 @@ public protocol CastableToCGFloat {
 
 
 extension CGFloat : CastableToSwiftTypes, CastableToCGFloat {
+    public var Int64: Int64 {
+        get {
+            return Swift.Int64(self)
+        }
+    }
+    
+    public var Int8: Int8 {
+        get {
+            return Swift.Int8(self)
+        }
+    }
+    
+    public var Int16: Int16 {
+        get {
+            return Swift.Int16(self)
+        }
+    }
+    
+    public var Int32: Int32 {
+        get {
+            return Swift.Int32(self)
+        }
+    }
     
     public var Int : Swift.Int {
         get {
@@ -22,13 +45,11 @@ extension CGFloat : CastableToSwiftTypes, CastableToCGFloat {
         }
     }
     
-    
     public var Float : Swift.Float {
         get {
             return Swift.Float(self)
         }
     }
-    
     
     public var Double : Swift.Double {
         get {
@@ -63,6 +84,42 @@ extension Double : CastableToCGFloat {
 
 
 extension Float : CastableToCGFloat {
+    public var CGFloat : CoreGraphics.CGFloat {
+        get {
+            return CoreGraphics.CGFloat(self)
+        }
+    }
+}
+
+
+extension Int8 : CastableToCGFloat {
+    public var CGFloat : CoreGraphics.CGFloat {
+        get {
+            return CoreGraphics.CGFloat(self)
+        }
+    }
+}
+
+
+extension Int16 : CastableToCGFloat {
+    public var CGFloat : CoreGraphics.CGFloat {
+        get {
+            return CoreGraphics.CGFloat(self)
+        }
+    }
+}
+
+
+extension Int32 : CastableToCGFloat {
+    public var CGFloat : CoreGraphics.CGFloat {
+        get {
+            return CoreGraphics.CGFloat(self)
+        }
+    }
+}
+
+
+extension Int64 : CastableToCGFloat {
     public var CGFloat : CoreGraphics.CGFloat {
         get {
             return CoreGraphics.CGFloat(self)

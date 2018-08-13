@@ -29,6 +29,10 @@ class TestCast: TestBase {
         testIntResultCorrect(val, intVal: Int(val))
         testFloatResultCorrect(val, floatVal: Float(val))
         testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
     }
     
     
@@ -38,6 +42,10 @@ class TestCast: TestBase {
         testIntResultCorrect(val, intVal: Int(val))
         testFloatResultCorrect(val, floatVal: Float(val))
         testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
     }
     
     func testDouble() {
@@ -46,6 +54,10 @@ class TestCast: TestBase {
         testIntResultCorrect(val, intVal: Int(val))
         testFloatResultCorrect(val, floatVal: Float(val))
         testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
     }
     
     func testCGFloat() {
@@ -54,5 +66,60 @@ class TestCast: TestBase {
         testIntResultCorrect(val, intVal: Int(val))
         testFloatResultCorrect(val, floatVal: Float(val))
         testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
     }
+    
+    func testInt8() {
+        let val = Int8(1)
+        testProtocolSupport(val)
+        testIntResultCorrect(val, intVal: Int(val))
+        testFloatResultCorrect(val, floatVal: Float(val))
+        testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
+    }
+    
+    func testInt16() {
+        let val = Int16(1)
+        testProtocolSupport(val)
+        testIntResultCorrect(val, intVal: Int(val))
+        testFloatResultCorrect(val, floatVal: Float(val))
+        testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
+    }
+    
+    func testInt32() {
+        let val = Int32(1)
+        testProtocolSupport(val)
+        testIntResultCorrect(val, intVal: Int(val))
+        testFloatResultCorrect(val, floatVal: Float(val))
+        testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
+    }
+    
+    
+    func testInt64() {
+        let val = Int64(1)
+        
+        testProtocolSupport(val)
+        testIntResultCorrect(val, intVal: Int(val))
+        testFloatResultCorrect(val, floatVal: Float(val))
+        testDoubleResultCorrect(val, doubleVal: Double(val))
+        testInt8ResultCorrect(val, int8Val:Int8(val))
+        testInt16ResultCorrect(val, int16Val:Int16(val))
+        testInt32ResultCorrect(val, int32Val:Int32(val))
+        testInt64ResultCorrect(val, int64Val:Int64(val))
+    }
+    
 }

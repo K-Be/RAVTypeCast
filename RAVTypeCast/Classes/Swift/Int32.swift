@@ -1,14 +1,13 @@
 //
-//  Int.swift
+//  Int32.swift
 //  RAVTypeCast
 //
-//  Created by Andrew Romanov on 08/08/2018.
+//  Created by Andrew Romanov on 13/08/2018.
 //
 
 import Foundation
 
-
-extension Int : CastableToSwiftTypes {
+extension Int32 : CastableToSwiftTypes {
     public var Int64: Int64 {
         get {
             return Swift.Int64(self)
@@ -51,5 +50,3 @@ extension Int : CastableToSwiftTypes {
         }
     }
 }
-
-

@@ -9,6 +9,30 @@ import Foundation
 
 
 extension Float : CastableToSwiftTypes {
+    public var Int64: Int64 {
+        get {
+            return Swift.Int64(self)
+        }
+    }
+    
+    public var Int8: Int8 {
+        get {
+            return Swift.Int8(self)
+        }
+    }
+    
+    public var Int16: Int16 {
+        get {
+            return Swift.Int16(self)
+        }
+    }
+    
+    public var Int32: Int32 {
+        get {
+            return Swift.Int32(self)
+        }
+    }
+    
     public var Int: Swift.Int {
         get{
             return Swift.Int(self)
