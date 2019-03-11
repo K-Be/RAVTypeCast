@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "summary": "Convenient type casting for Numeric types",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/k_be/RAVTypeCast",
+  "homepage": "https://github.com/K-Be/RAVTypeCast",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,9 +12,10 @@
     "Andrew Romanov": "scalli-k-be@ya.ru"
   },
   "source": {
-    "git": "https://github.com/Andrew Romanov/RAVTypeCast.git",
+    "git": "https://github.com/K-Be/RAVTypeCast.git",
     "tag": "0.0.1"
   },
+  "swift_version": "5.0",
   "platforms": {
     "ios": "8.0"
   },
@@ -75,6 +76,11 @@
         "RAVTypeCast/Swift": [
 
         ]
+      },
+      "platforms": {
+        "ios": "8.0",
+        "osx": "10.7",
+        "tvos": "9.0"
       }
     }
   ]

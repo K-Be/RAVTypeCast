@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Andrew Romanov' => 'scalli-k-be@ya.ru' }
   s.source           = { :git => 'https://github.com/K-Be/RAVTypeCast.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+	s.swift_version = '5.0'
 
   s.ios.deployment_target = '8.0'
 
